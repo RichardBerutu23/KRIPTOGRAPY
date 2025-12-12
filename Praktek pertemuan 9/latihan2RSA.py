@@ -122,7 +122,7 @@ def main():
     print("Kunci privat d =", d)
 
     # 4. Input plaintext
-    raw = input("\nMasukkan plaintext (boleh teks atau angka). Jika teks, ketik teks biasa: ").rstrip("\n")
+    raw = input("\nMasukkan plaintext (boleh teks atau angka) : ").rstrip("\n")
     # cek apakah input adalah bilangan bulat:
     is_number = False
     try:
